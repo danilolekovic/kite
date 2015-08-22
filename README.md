@@ -1,6 +1,6 @@
 # kite
 
-A super-small, portable, non-dependant JavaScript framework that allows for HTML in seperate files to be plotted anywhere.
+A super-small, portable, non-dependent JavaScript framework that allows for HTML in separate files to be plotted anywhere.
 
 ## features
 
