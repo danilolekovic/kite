@@ -16,7 +16,16 @@ for (var i = 0; i < elements.length; i++) {
   var src = "";
 
   if (elements[i].hasAttribute("src")) {
-    src += httpGet(elements[i].getAttribute("src"));
+    if (elements[i].getAttribute("src").indexof(",") > -1) {
+      files = elements[i].getAttribute("src").split(',');
+
+      for (f in files) {
+          str += httpGet(f);
+      }
+    } else {
+      src += httpGet(elements[i].getAttribute("src"));
+    }
+
     var htmlNode = document.createElement('span');
     htmlNode.innerHTML = src;
     elements[i].parentNode.replaceChild(htmlNode, elements[i]);

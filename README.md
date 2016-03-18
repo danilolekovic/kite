@@ -4,9 +4,10 @@ A super-small, portable, non-dependent JavaScript framework that allows for HTML
 
 ## features
 
-  * Only have a kilobyte (`503b`)!
+  * Only half a kilobyte (`643b`)!
   * Fast!
   * Error handling!
+  * Multiple files!
 
 ## example
 
@@ -25,12 +26,12 @@ A super-small, portable, non-dependent JavaScript framework that allows for HTML
 Simply add this tag to the bottom of your HTML file.
 
 ```js
-<script src="http://danilo.lekoits.com/kite/kite.min.js"></script>
+<script src="https://github.com/danilolekovic/kite.git"></script>
 ```
 
 ## todo
 
-  * Multiple files in one tag!
+  [x] Multiple files in one tag!
 
 ## license
 
