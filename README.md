@@ -1,15 +1,20 @@
-# kite
+<div align="center">
+<p>
+    <img src="https://i.imgur.com/CApgx4g.png" width=150, height=150>
+</p>
+<h1>Kite</h1>
+</div>
 
-A super-small, portable, non-dependent JavaScript framework that allows for HTML in separate files to be plotted anywhere.
+### Information
 
-## features
+## Features
 
-  * Only half a kilobyte (`643b`)!
-  * Fast!
-  * Error handling!
-  * Multiple files!
+  * Only half a kilobyte (`643b`)
+  * Fast
+  * Error handling
+  * Multiple files
 
-## example
+## Example
 
 **index.html:**
 ```html
@@ -21,7 +26,7 @@ A super-small, portable, non-dependent JavaScript framework that allows for HTML
 <p>Hello world!</p>
 ```
 
-## get it now
+### Get It Now
 
 Simply add this tag to the bottom of your HTML file.
 
@@ -29,10 +34,10 @@ Simply add this tag to the bottom of your HTML file.
 <script src="https://github.com/danilolekovic/kite.git"></script>
 ```
 
-## todo
+### To-Do
 
-  [x] Multiple files in one tag!
+  [x] Multiple files in one tag
 
-## license
+### License
 
 This project is licensed under the permissive [MIT license](https://raw.githubusercontent.com/danilolekovic/kite/master/LICENSE).
