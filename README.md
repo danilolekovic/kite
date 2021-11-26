@@ -31,7 +31,7 @@
 Simply add this tag to the bottom of your HTML file.
 
 ```js
-<script src="https://github.com/danilolekovic/kite.git"></script>
+<script src="https://raw.githubusercontent.com/danilolekovic/kite/master/src/kite.min.js"></script>
 ```
 
 ### To-Do
